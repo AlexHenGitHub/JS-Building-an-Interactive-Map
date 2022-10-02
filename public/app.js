@@ -21,7 +21,7 @@ const bourse = L.marker([48.86868503971672, 2.3412285142058167]).bindPopup('Bour
 const qS = L.marker([48.869560129483226, 2.3358638645569543]).bindPopup('Quatre Septembre').addTo(map);
 const gB = L.marker([48.871282159004856, 2.3434818588892714]).bindPopup('Grands Boulevards').addTo(map);
 
-//const RedMark = L.marker([48.846066, 2.321492],{icon: redPin}).bindPopup('RÃ©aumur-SÃ©bastopol');
+
 
 
 
@@ -69,7 +69,7 @@ map.on('click', onMapClick);
 
 
 
-// create red pin marker
+
 
 
 
