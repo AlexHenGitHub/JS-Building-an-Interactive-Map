@@ -1,8 +1,7 @@
 // create map
 var map = L.map('map').setView([48.87007, 2.342130], 12);
                                                 //^ this number represnets zoom level
-
-
+                                                
 // add openstreetmap tiles
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -22,10 +21,6 @@ const qS = L.marker([48.869560129483226, 2.3358638645569543]).bindPopup('Quatre 
 const gB = L.marker([48.871282159004856, 2.3434818588892714]).bindPopup('Grands Boulevards').addTo(map);
 
 
-
-
-
-
 //creating a circle
 var circle = L.circle([48.868102, 2.295799], {
     color: 'red',
@@ -43,11 +38,6 @@ var polygon = L.polygon([
     [48.86834104280146, 2.330308418109664]
 ]).addTo(map);
                                          
-
-
-
-
-
 //Popups 
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 circle.bindPopup("I am a circle. (pop up test)");
@@ -63,16 +53,3 @@ function onMapClick(e) {
 }
 
 map.on('click', onMapClick);
-
-
-
-
-
-
-
-
-
-
-
-
-
